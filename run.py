@@ -164,7 +164,7 @@ def main():
     ap = argparse.ArgumentParser()
     
     ap.add_argument('-m','--model', type=str,
-                    default='/home/root/IR_detection/IR_dection_DPU/dpu_densenetx_0.elf'
+                    default='/home/root/DPU_Covid_19_detection_target/dpu_densenetx_0.elf'
                     )
     
     ap.add_argument('-i', '--image_dir',
